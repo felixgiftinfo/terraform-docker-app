@@ -31,3 +31,30 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+
+# Terraform data directories.
+.terraform/
+*.terraform/
+
+# Terraform state files.
+*.tfstate
+*.tfstate.*
+
+# Terraform variable files.
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI configuration files.
+.terraformrc
+terraform.rc
+
+# Terraform override files.
+*_override.tf
+*_override.tf.json
+override.tf
+override.tf.json
+
+# Terraform crash logs.
+crash.*.log
+crash.log
